@@ -18,12 +18,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    exDelegateSecondView *DSV = [[exDelegateSecondView alloc] init];
+    DSV.delegate = self;
+    //self.resultLabel.text = @"bbb";
+    //[self finishView:@"hoge"];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)finishView:(NSString *)returnValue
+{
+    self.resultLabel.text = @"aaa";
+    [self dismissViewControllerAnimated:YES completion:nil];
+
 }
 
 @end

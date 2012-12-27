@@ -18,6 +18,7 @@
 		C2777C4C168B41E50096B1C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2777C4B168B41E50096B1C7 /* Default-568h@2x.png */; };
 		C2777C4F168B41E50096B1C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2777C4D168B41E50096B1C7 /* MainStoryboard.storyboard */; };
 		C2777C52168B41E50096B1C7 /* exDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2777C51168B41E50096B1C7 /* exDelegateViewController.m */; };
+		C2777C5D168B47640096B1C7 /* exDelegateSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2777C5C168B47640096B1C7 /* exDelegateSecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		C2777C4E168B41E50096B1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C2777C50168B41E50096B1C7 /* exDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exDelegateViewController.h; sourceTree = "<group>"; };
 		C2777C51168B41E50096B1C7 /* exDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exDelegateViewController.m; sourceTree = "<group>"; };
+		C2777C5B168B47640096B1C7 /* exDelegateSecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exDelegateSecondView.h; sourceTree = "<group>"; };
+		C2777C5C168B47640096B1C7 /* exDelegateSecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exDelegateSecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C2777C50168B41E50096B1C7 /* exDelegateViewController.h */,
 				C2777C51168B41E50096B1C7 /* exDelegateViewController.m */,
 				C2777C3C168B41E50096B1C7 /* Supporting Files */,
+				C2777C5B168B47640096B1C7 /* exDelegateSecondView.h */,
+				C2777C5C168B47640096B1C7 /* exDelegateSecondView.m */,
 			);
 			path = ex_05_Delegate;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				C2777C42168B41E50096B1C7 /* main.m in Sources */,
 				C2777C46168B41E50096B1C7 /* exDelegateAppDelegate.m in Sources */,
 				C2777C52168B41E50096B1C7 /* exDelegateViewController.m in Sources */,
+				C2777C5D168B47640096B1C7 /* exDelegateSecondView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

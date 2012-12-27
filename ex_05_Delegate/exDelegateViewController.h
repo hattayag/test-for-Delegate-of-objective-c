@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "exDelegateSecondView.h"
 
-@interface exDelegateViewController : UIViewController
+@interface exDelegateViewController : UIViewController<exMyDelegate>;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
